@@ -8,7 +8,7 @@
   color:white;
 }
 .bg-image {
-  background-image: url("assets/icon.webp"); /* Make sure this is the correct path */
+  background-image: url("assets/bg.webp"); /* Make sure this is the correct path */
   background-size: cover; /* Ensures full coverage */
   background-position: center; /* Centers the background */
   background-repeat: no-repeat; /* Prevents repetition */
