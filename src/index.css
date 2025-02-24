@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  font-family:"Noto Sans",sans-Serif;
+  background-color:rgb(24 3 23);
+  color:white;
+}
+.bg-image {
+  background-image: url("assets/icon.webp"); /* Make sure this is the correct path */
+  background-size: cover; /* Ensures full coverage */
+  background-position: center; /* Centers the background */
+  background-repeat: no-repeat; /* Prevents repetition */
+  background-attachment: fixed; /* Keeps it fixed when scrolling */
+  filter: brightness(90%) contrast(110%); /* Enhances visibility */
+}
+
+html, body {
+  height: 100%;
+  overflow-y: auto !important; /* ✅ Ensures scrolling is enabled */
+  scroll-behavior: smooth; /* ✅ Native smooth scrolling */
+}
+.hero-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 340px; /* Reduced width */
+  height: 420px; /* Maintains current height */
+  max-width: 100%; /* Responsive */
+  border: 2px solid rgba(255, 255, 255, 0.3); /* Soft border */
+  border-radius: 15px; /* Rounded edges */
+  padding: 10px; /* Space between image & border */
+  background-color: rgba(255, 255, 255, 0.05); /* Subtle background */
+  box-shadow: 0px 0px 12px rgba(255, 255, 255, 0.1); /* Light glow effect */
+}
+
+.hero-img {
+  width: 100%; /* Fits container */
+  height: 100%; /* Fits container */
+  object-fit: cover; /* Maintains aspect ratio */
+  image-rendering: crisp-edges; /* Ensures sharpness */
+  border-radius: 10px; /* Soft edges */
+}
+.full-width-text {
+  width: 100%; /* Takes full width of the page */
+  max-width: 100vw; /* Ensures it spans the viewport */
+  text-align: center; /* Keeps text centered */
+  font-size: 1.8rem; /* Adjusts font size */
+  font-weight: 500; /* Slightly bold for visibility */
+  line-height: 1.6; /* Improves readability */
+  padding: 20px; /* Adds spacing */
+  margin: 0 auto; /* Centers it */
+}
+
+
