@@ -13,4 +13,7 @@ export default defineConfig({
       ],
     },
   },
+
+  base: "/Portfolio/",  // 👈 Important for GitHub Pages
 });
+
