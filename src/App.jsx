@@ -1,7 +1,7 @@
 import Hero from './Components/Hero';
 import Contact from './Components/Contact';
 import Education from './Components/Education';
-import Testimonals from './Components/Testimonial';
+// import Testimonals from './Components/Testimonial';
 import Experience from './Components/Experience';
 import Navbar from './Components/Navbar';
 import Skills from './Components/Skills';
