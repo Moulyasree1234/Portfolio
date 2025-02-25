@@ -29,12 +29,8 @@
     "eslint-plugin-react-refresh": "^0.4.18",
     "globals": "^15.14.0",
     "postcss": "^8.5.3",
-    "tailwindcss": "link:../Library/pnpm/global/5/node_modules/tailwindcss",
+    "tailwindcss": "^3.0.0",
     "vite": "^6.1.0"
-  },
-  "pnpm": {
-    "overrides": {
-      "tailwindcss": "link:../Library/pnpm/global/5/node_modules/tailwindcss"
-    }
   }
+ 
 }
